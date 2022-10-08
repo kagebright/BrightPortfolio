@@ -1,0 +1,100 @@
+.header {
+    padding:10px;
+    background-color:pink;
+    color: aquamarine;
+    display: block;
+}
+
+* { 
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+header {
+    display: block;
+}
+.h1 header {
+    display: inline-block;
+    font-size: 25px;
+}
+img {
+    border-radius: 8px;
+    width: 50%;
+    height: 5%;
+    display: inline-block;
+}
+.center {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width:50%;
+    border: 1px solid black;
+    padding-top:5px;
+    padding: bottom 10px;
+    padding-right:15;
+    padding-left: 15;
+}
+
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 200;
+    font-style:normal;
+}
+.div {
+    padding-top: 15px;
+    margin-right:15px;
+    float: left;
+    font-size: 25;
+}
+.content {
+    width:90%;
+    margin-left: 70px;
+}
+#about-me {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 50px;
+    display:inline-block;
+    height:auto;
+    text-align: left;
+    background-color: teal;
+    color: white;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-block-start: 0px;
+    margin-inline-end: 0px;
+}
+#work {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+    background-color: teal;
+    color:white;
+}
+
+.footer {
+    background-color:azure;
+    color: navy;
+    padding: 10px;
+    text-align: center;
+}
+footer {
+    display: block;
+}
+#linkedin img{
+   opacity: 0.5;
+    height: 5px;
+}
+#img:hover {
+    opacity: 1.0;
+}
