@@ -59,7 +59,7 @@ p {
 }
 
 .card {
-    margin: 100% auto;
+    margin: 0% auto;
     display: inline-block;
     text-align: center;
     border-style: solid;
