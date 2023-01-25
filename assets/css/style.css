@@ -1,150 +1,86 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
+/* Global Styles */
 body {
-    background-color: azure;
+    font-family: Arial, sans-serif;
+    background-color: #d8d2d8;
+    color: #554455;
+    text-align: center;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 25px;
-}
-
-
-.header { 
+/* Header Styles */
+.header {
+    background-color: #554455;
     padding: 20px;
-    background-color: #A96762;
-    display: block;
-    color: #ffffff; 
 }
 
 .header h1 {
-    display: inline-block;
-    font-size: 50px;
-    color: white;
+    color: #f1eeee;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
-.header div {
-    display:block;
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-size: 35px;
-    font-weight: bold;
-    color: white
+.header nav a {
+    color: #f8f4f4;
+    text-decoration: none;
+    margin: 0 20px;
 }
 
-
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-    color: white;
+/* Main Styles */
+.about-me img {
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
+.about-me h2 {
+    color: #554455;
 }
 
-.content {
-    width: 90%;
-    margin-left: 70px;
-}
-
-.card {
-    margin: 0% auto;
-    display: inline-block;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-    padding: 20px;
-    margin: 20px;
-    box-shadow: 5px 10px 10px #662929;
-}
-
-.card:hover {
-    color: #bd342a;
-    border-width: 3px;
-    text-size-adjust: 160%;
-}
-
-#about-me {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    padding: 50px;
-    display: inline-block;
-    height: auto;
+.about-me p {
+    color: #5A5A5A;
+    font-size: 18px;
+    line-height: 1.5;
     text-align: left;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #A96762;
-    color: #ffffff;
+    margin: 0 auto;
+    width: 70%;
 }
 
-#work {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    padding: 50px;
-    height: auto;
+.projects .card {
+    width: 30%;
+    background-color: #554455;
+    display: inline-block;
+    margin: 20px;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #A96762;
-    color: #ffffff;
+    padding: 20px;
 }
 
-
-#about-me img {
-    max-height: 300px;
-}
-
-
-#about-me h2, 
-#work h2, 
-#contact h2 {
-    margin-bottom: 30;
-    font-size: 40px;
-}
-
-h3 img {
-    max-height: 200px;
-}
-
-
-.footer {
-    background-color:#A96762;
+.projects .card h3 {
     color: white;
-    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.projects .card img {
+    width: 100%;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #554455;
+    color: #f5f0f0;
+    padding: 20px;
     text-align: center;
+}
+
+.footer .contact a {
+    margin: 0 10px;
+}
+
+.footer .contact img {
+    width: 30px;
 }
 
 .footer h2 {
-    font-size: 20px;
-}
-
-#media img {
-    opacity:1.0;
-    max-height:90px;
-}
-#phone img {
-    opacity: 80%;
-    max-height: 90px;
-  }
-
-#media:hover img {
-    opacity:100%;
-    transform: scale(1.2);  
-}
-li {
-    color: white;
-    font-size:30px;
-}
-ul {
-    color:white;
-    font-size: 30px;
+    color: #f4f0f4;
 }
