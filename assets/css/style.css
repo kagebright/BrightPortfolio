@@ -24,6 +24,11 @@ body {
     margin: 0 20px;
 }
 
+.header nav a:hover {
+    color: #554455;
+    background-color: #f8f4f4;
+}
+
 /* Main Styles */
 .about-me img {
     width: 200px;
@@ -52,6 +57,11 @@ body {
     margin: 20px;
     text-align: center;
     padding: 20px;
+}
+
+.projects .card:hover {
+    color: #554455;
+    background-color: red;
 }
 
 .projects .card h3 {
