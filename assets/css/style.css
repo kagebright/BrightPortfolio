@@ -4,93 +4,94 @@ body {
     background-color: #d8d2d8;
     color: #554455;
     text-align: center;
-}
-
-/* Header Styles */
-.header {
+  }
+  
+  /* Header Styles */
+  .header {
     background-color: #554455;
     padding: 20px;
-}
-
-.header h1 {
+  }
+  
+  .header h1 {
     color: #f1eeee;
     text-transform: uppercase;
     letter-spacing: 2px;
-}
-
-.header nav a {
+  }
+  
+  .header nav a {
     color: #f8f4f4;
     text-decoration: none;
     margin: 0 20px;
-}
-
-.header nav a:hover {
+  }
+  
+  .header nav a:hover {
     color: #554455;
     background-color: #f8f4f4;
-}
-
-/* Main Styles */
-.about-me img {
+  }
+  
+  /* Main Styles */
+  .about-me img {
     width: 200px;
     border-radius: 50%;
     margin: 20px auto;
     display: block;
-}
-
-.about-me h2 {
+  }
+  
+  .about-me h2 {
     color: #554455;
-}
-
-.about-me p {
-    color: #5A5A5A;
+  }
+  
+  .about-me p {
+    color: #5a5a5a;
     font-size: 18px;
     line-height: 1.5;
     text-align: left;
     margin: 0 auto;
     width: 70%;
-}
-
-.projects .card {
+  }
+  
+  .projects .card {
     width: 30%;
     background-color: #554455;
     display: inline-block;
     margin: 20px;
     text-align: center;
     padding: 20px;
-}
-
-.projects .card:hover {
+  }
+  
+  .projects .card:hover {
     color: #554455;
     background-color: red;
-}
-
-.projects .card h3 {
+  }
+  
+  .projects .card h3 {
     color: white;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 10px;
-}
-
-.projects .card img {
+  }
+  
+  .projects .card img {
     width: 100%;
-}
-
-/* Footer Styles */
-.footer {
+  }
+  
+  /* Footer Styles */
+  .footer {
     background-color: #554455;
     color: #f5f0f0;
     padding: 20px;
     text-align: center;
-}
-
-.footer .contact a {
+  }
+  
+  .footer .contact a {
     margin: 0 10px;
-}
-
-.footer .contact img {
+  }
+  
+  .footer .contact img {
     width: 30px;
-}
-
-.footer h2 {
+  }
+  
+  .footer h2 {
     color: #f4f0f4;
-}
+  }
+  
